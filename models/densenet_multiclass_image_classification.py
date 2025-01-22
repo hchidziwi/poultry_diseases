@@ -25,9 +25,9 @@ from tensorflow.keras.applications import MobileNetV2, densenet
 
 
 #dataset paths
-train_path = '../data/train6/train'
-valid_path = '../data/train6/valid'
-test_path = '../data/train6/test'
+train_path = '../../chicken_vocalizations/data/train6/train'
+valid_path = '../../chicken_vocalizations/data/train6/valid'
+test_path = '../../chicken_vocalizations/data/train6/test'
 
 #load data
 train_batches = ImageDataGenerator(preprocessing_function=tf.keras.applications.vgg16.preprocess_input, vertical_flip=True, rotation_range=45, rescale=1./255) \
@@ -73,7 +73,7 @@ history = model.fit(x=train_batches,
     validation_data=valid_batches,
     validation_steps=len(valid_batches),
     callbacks=early_stopping,
-    epochs=100,
+    epochs=10,
     verbose=2
 )
 
