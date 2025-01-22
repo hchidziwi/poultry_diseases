@@ -15,6 +15,8 @@ This study explores the generalizability of deep learning models in predicting p
 - results/: Output files, confusion matrices, and visualizations.
 
 ## Citation
+If you use this code or find it helpful, please cite our paper:
+
 @article{chidziwisano2025poultry,
   title={Deep Learning Methods for Poultry Disease Prediction Using Images},
   author={Chidziwisano, George and Samikwa, Eric and Daka, Chisomo},
