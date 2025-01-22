@@ -9,7 +9,7 @@ Published in: Computers and Electronics in Agriculture (2025)
 This study explores the generalizability of deep learning models in predicting poultry diseases using fecal images collected from Malawi and Tanzania. It evaluates the performance of MobileNet, DenseNet, and ResNet for binary and multiclass classification tasks. The results demonstrate the potential of binary classifiers to outperform multiclass classifiers in cross-context applications.
 
 ## Repository Structure
-- data/: Contains example datasets or links to data sources used in the study.
+- data/: Contains example test dataset from Malawi. Here is a link for the dataset, from Tanzania, that was used to train these models: https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2022.733345/full
 - saved_models/: Pretrained and custom-trained models for poultry disease prediction.
 - scripts/: Python scripts for training, evaluation, and preprocessing.
 - results/: Output files, confusion matrices, and visualizations.
